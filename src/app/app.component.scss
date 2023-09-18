@@ -1,0 +1,23 @@
+
+
+
+
+.app-parent{
+    background: #141519;
+    color: white;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .app-child{
+        background: linear-gradient(#222932, #171E28);
+        padding: 40px;
+
+        height: 400px;
+        width: 420px;
+
+        border-radius: 20px;
+    }
+}

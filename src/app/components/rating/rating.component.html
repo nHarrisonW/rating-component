@@ -1,0 +1,10 @@
+
+<div class="rating-container">
+    <button 
+    class="icon rate"
+    *ngFor="let item of range(ratingService.maxRating); let i=index;"
+    [ngClass]="{ 'active': i < ratingService.rating }"
+    (click)="setRating(i + 1)">
+        {{i+1}}
+    </button>
+</div>

@@ -1,0 +1,19 @@
+@import '../../../scss/universal';
+
+
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    .success-rating{
+        color: #E8863E;
+        background: #262F38;
+
+        border-radius: 30px;
+
+        padding: 4px 12px;
+    }
+}
